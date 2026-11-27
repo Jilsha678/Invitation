@@ -26,14 +26,12 @@
      box-shadow:
         0 8px 20px rgba(70, 35, 30, 0.15),
         0 2px 5px rgba(70, 35, 30, 0.08);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        
+        transition: transform 0.3s ease, box-shadow 0.3s ease;        
 }
  .event-card h2 {
     font-family: 'Cormorant Garamond', serif;
     font-size: clamp(30px, 4vw, 45px);
     color: #D8B878;
-
     letter-spacing: 4px;
     margin-bottom: 20px;
 }
@@ -76,8 +74,7 @@
     flex-wrap: wrap;
     gap: 20px;
 }
-.countdown-boxes div{
-    
+.countdown-boxes div{   
     min-width: 75px;
     padding: 15px 10px;
     border: 3px solid #D8B878;
@@ -87,10 +84,8 @@
     color: #D8B878;
     font-family: 'Cormorant Garamond', serif;
     font-size: 24px;
-    font-weight: bolder;
-    
+    font-weight: bolder; 
 }
-
 .countdown-boxes span {
     display: block;
     font-size: 14px;
@@ -154,14 +149,12 @@
         gap: 8px;
         flex-wrap: nowrap;
     }
-
     .countdown-boxes div {
         min-width: 0;
         flex: 1;
         padding: 12px 3px;
         font-size: 18px;
     }
-
     .countdown-boxes span {
         font-size: 11px;
     }

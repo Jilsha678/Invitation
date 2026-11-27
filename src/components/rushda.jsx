@@ -19,7 +19,7 @@ function Rushda({fade}){
                     <h4 className='parent1'>D/o Faisal & Haseena</h4>
                     <h3 className='parent1'>and</h3>
                     <h3 className='couple1'>SHAHID</h3>
-                    <h4 className='parent1'>S/o </h4>
+                    <h4 className='parent1'>S/o Ismayil & Ruckiya</h4>
                     </div>
                     
                     <p className='request'>REQUEST THE PLEASURE OF YOUR COMPANY</p>

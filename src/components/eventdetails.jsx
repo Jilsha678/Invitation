@@ -28,7 +28,7 @@ function EventDetails(){
             <h1>03 JANUARY 2027</h1>
             <div className='date-time'> 
                 <h4>SUNDAY</h4>
-            <h4> 10:00 am Onwards</h4>
+            <h4> 10:30 am Onwards</h4>
             </div>
             
             <div className="countdown">
