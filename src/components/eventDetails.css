@@ -1,0 +1,178 @@
+.event-page {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../assets/event.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+.event-card {
+    background-color: #F2E6DC;
+    /* color: #806254; */
+    width: 100%;
+    max-width: 700px;
+    padding: 35px 30px; 
+    border: 2px solid #D8B878;
+    border-radius: 18px;
+    box-sizing: border-box;
+     box-shadow:
+        0 8px 20px rgba(70, 35, 30, 0.15),
+        0 2px 5px rgba(70, 35, 30, 0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        
+}
+ .event-card h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(30px, 4vw, 45px);
+    color: #D8B878;
+
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.event-card p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(16px, 2vw, 20px);
+    color: #641B32;
+    line-height: 1.6;
+    margin: 15px auto;
+    max-width: 550px;
+}
+.event-card h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(28px, 4vw, 42px);
+    color: #641B32;
+    
+    letter-spacing: 3px;
+    margin: 25px 0 10px;
+}
+.date-time{
+      font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: #641B32;
+    letter-spacing: 2px;
+    /* margin: 8px 0; */
+    /* display: flex; */
+    justify-content: center;
+    gap: 1px;
+}
+.countdown h3 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #A88B5A;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin: 30px 0 20px;
+}
+.countdown-boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.countdown-boxes div{
+    
+    min-width: 75px;
+    padding: 15px 10px;
+    border: 3px solid #D8B878;
+    border-radius: 8px;
+    background-color:#641B32 ;
+    opacity: 0.9;
+    color: #D8B878;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: bolder;
+    
+}
+
+.countdown-boxes span {
+    display: block;
+    font-size: 14px;
+    font-weight:normal;
+    color: #A88B5A;
+    margin-top: 5px;
+}
+.event-card h5 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    color: #A88B5A;
+    letter-spacing: 3px;
+    margin: 35px 0 15px;
+}
+.event-card a{
+    text-decoration: none;
+     color: #641B32;
+    border: 1px solid #D8B878;
+     padding: 10px 25px;
+     font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 2px;
+    margin: 10px 0 20px;
+    transition: all 0.3s ease;
+}
+.event-card a:hover {
+    background-color: #641B32;
+    color: #FFFDF8;
+}
+.event-card h3:not(.countdown h3) {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px;
+    color: #641B32;
+    margin: 12px 0;
+}
+.event-card p:nth-of-type(2) {
+    color: #A88B5A;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.venue h4{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    color: #641B32;
+    /* margin: 12px 0; */
+}
+.event-card h1 {
+    margin-bottom: 5px;
+}
+
+.event-card h4 {
+    margin: 4px 0;
+}
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 28px rgba(70, 35, 30, 0.2);
+}
+@media (max-width: 480px) {
+    .countdown-boxes {
+        gap: 8px;
+        flex-wrap: nowrap;
+    }
+
+    .countdown-boxes div {
+        min-width: 0;
+        flex: 1;
+        padding: 12px 3px;
+        font-size: 18px;
+    }
+
+    .countdown-boxes span {
+        font-size: 11px;
+    }
+    .event-card p:nth-of-type(2) {
+        font-size: 12px;
+        letter-spacing: 1px;
+        white-space: nowrap;
+    }
+      .countdown h3 {
+        font-size: 17px;
+        letter-spacing: 2px;
+        white-space: nowrap;
+    }   
+}   

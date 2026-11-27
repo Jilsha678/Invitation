@@ -1,0 +1,113 @@
+.scratch-page {
+     height: 100vh;
+    background-image: url('../assets/image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.scratch-page  .scratch-card {
+    background-color: #FFFDF8;
+    border: 4px solid #D8B878;
+    border-radius: 15px;
+   width: clamp(85px, 15vw, 150px);
+    height: clamp(110px, 18vw, 180px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scratch-page h4 {
+     color: #A88B5A;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(28px, 4vw, 45px);
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.scratch-card {
+    position: relative;
+    overflow: hidden;
+    cursor: crosshair;
+    touch-action: none;
+}
+.scratch-canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    cursor: crosshair;
+    touch-action: none;
+}   
+.scratch-card h4 {
+    position: relative;
+    z-index: 0;
+}
+
+.scratch-canvas {
+    z-index: 1;
+}
+.scratch-heading h2 {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 3px;
+}
+
+.scratch-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+      animation: fadeIn 5s ease forwards;
+}
+.scratch-heading{
+    color: ivory;
+    font-size: clamp(15px, 1vw, 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      animation: fadeIn 1.5 ease forwards;
+    /* justify-content: center; */
+}
+.gold-divider {
+    width: 150px;
+    height: 1.5px;
+    background: #D8B878;
+    margin: 15px auto 0;
+}
+.scroll-hint {
+    color: #FFFDF8;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-top: 20px;
+    animation: hintMove 1.5s ease-in-out infinite;
+}
+
+.scroll-arrow {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+@keyframes hintMove {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(8px);
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

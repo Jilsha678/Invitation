@@ -1,0 +1,79 @@
+.thank-section {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #FFFDF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 25px;
+    box-sizing: border-box;
+}
+.thank-section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(20px, 3vw, 28px);
+    color: #641B32;
+    letter-spacing: 3px;
+    margin-bottom: 35px;
+}
+.arabic-verse {
+    font-family: 'Amiri', 'Traditional Arabic', serif;   
+    font-size: clamp(20px, 4vw, 30px);
+    line-height: 2;
+    color: #641B32;
+    max-width: 900px;
+    margin: 20px auto 30px;
+}
+.verse-meaning {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(17px, 2vw, 20px);
+    color: #806254;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 15px auto;
+    font-style: italic;
+}
+.verse-reference {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    color: #641B32;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.blessing {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(18px, 2vw, 23px);
+    color: #806254;
+    line-height: 1.8;
+    max-width: 650px;
+    margin: 35px auto 0;
+    letter-spacing: 0.5px;
+}
+.gold{
+    color: #D8B878;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin: 20px 0;
+}
+.closing-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    color: #641B32;
+    font-style: italic;
+    margin-top: 35px;
+}
+
+.couple-names {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(10px, 2.5vw, 20px);
+    color: #641B32;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.couple-names span {
+    color: #D8B878;
+}
